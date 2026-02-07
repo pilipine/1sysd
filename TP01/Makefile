@@ -1,7 +1,7 @@
 .PHONY: all clean
 
 # Changer cette ligne en l'adapter à chaque TP
-PROGS=asks boomer game
+PROGS=si ok
 CC=gcc
 CFLAGS=
 # Rien à changer à partir d'ici
