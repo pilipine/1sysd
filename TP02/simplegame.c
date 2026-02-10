@@ -25,3 +25,4 @@ int main() {
         }
     }
     printf("Bravo vous avez trouvé en %d coups.\n", tries);
+}
