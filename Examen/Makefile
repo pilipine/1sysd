@@ -10,10 +10,10 @@ LDFLAGS=-lm
 all: $(PROGS)
 
 %: %.c
-        $(CC) $(CFLAGS) -o $@ $< $(LDFLAGS)
+	$(CC) $(CFLAGS) -o $@ $< $(LDFLAGS)
 
 %.s: %.c
-        $(CC) -S $<
+	$(CC) -S $<
 
 clean:
-        rm -f $(PROGS) *.so
+	rm -f $(PROGS) *.so
