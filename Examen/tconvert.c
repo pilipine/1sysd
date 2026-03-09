@@ -30,7 +30,7 @@ int main(void) {
     }
 
     printf("Entrez la valeur à convertir : ");
-    if (scanf("%lf", &valeur) != 1) {   // <<< scanft corrigé
+    if (scanf("%lf", &valeur) != 1) {   
         fprintf(stderr, "Erreur : valeur numérique invalide.\n");
         return EXIT_FAILURE;
     }
