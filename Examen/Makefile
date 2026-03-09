@@ -1,7 +1,7 @@
 .PHONY: all clean
 
 # Changer cette ligne en l'adapter à chaque TP
-PROGS= tconvert countchar1 countchar2 countint
+PROGS= tconvert countchar1 countchar2 countint intlist.c
 CC=gcc
 CFLAGS=
 LDFLAGS=-lm
